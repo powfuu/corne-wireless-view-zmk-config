@@ -1,10 +1,7 @@
-# build.yaml
 include:
   - board: nice_nano_v2
     shield: corne_left nice_oled
     artifact-name: corne_left.uf2
-    cmake-args: -DSHIELD_CUSTOM_OVERLAY=config/corne.overlay
   - board: nice_nano_v2
     shield: corne_right nice_oled
     artifact-name: corne_right.uf2
-    cmake-args: -DSHIELD_CUSTOM_OVERLAY=config/corne.overlay
