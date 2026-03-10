@@ -5,7 +5,6 @@
         compatible = "zmk,ext-power-generic";
         control-gpios = <&gpio0 13 GPIO_ACTIVE_HIGH>;
         init-delay-ms = <100>;
-        init;
     };
     behaviors {
         ep_on: ep_on {
