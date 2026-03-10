@@ -6,11 +6,12 @@
         control-gpios = <&gpio0 13 GPIO_ACTIVE_HIGH>;
         init-delay-ms = <100>;
     };
-    behaviors {
+
+    macros {
         ep_on: ep_on {
-            compatible = "zmk,behavior-ext-power";
-            #binding-cells = <1>;
-            type = <EP_ON>;
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&ext_power EP_ON>;
         };
     };
 };
