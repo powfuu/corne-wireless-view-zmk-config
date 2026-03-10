@@ -1,17 +1,7 @@
-#include <dt-bindings/zmk/ext_power.h>
-
 / {
     ext-power {
         compatible = "zmk,ext-power-generic";
         control-gpios = <&gpio0 13 GPIO_ACTIVE_HIGH>;
         init-delay-ms = <100>;
-    };
-
-    macros {
-        ep_on: ep_on {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&ext_power EP_ON>;
-        };
     };
 };
