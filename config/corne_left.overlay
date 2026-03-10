@@ -1,3 +1,5 @@
+#include <dt-bindings/zmk/ext_power.h>
+
 / {
     ext-power {
         compatible = "zmk,ext-power-generic";
