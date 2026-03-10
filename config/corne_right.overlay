@@ -9,7 +9,7 @@
     behaviors {
         ep_on: ep_on {
             compatible = "zmk,behavior-ext-power";
-            #binding-cells = <0>;
+            #binding-cells = <1>;
             type = <EP_ON>;
         };
     };
