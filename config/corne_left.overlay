@@ -1,9 +1,0 @@
-/ {
-    chosen {
-        zmk,ext-power = &ext_power;
-    };
-};
-
-&ext_power {
-    status = "okay";
-};
